@@ -1,49 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
+<!DOCTYPE html> <!-- Diretiva indicando para usar o HTML mais novo disponível pelo navegador-->
+<html> <!-- Indica o início do documento HTML -->
+<head> <!-- A tag head contém todas as tags de configuração da página-->
+  <meta charset="UTF-8"> <!-- configura a codificação de caracteres do navegador para o UTF-8-->
+  <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon"> <!-- Adiciona o ícone de aba de navegador-->
+  <title>IFSP - Pirituba</title> <!-- Adiciona o título na aba do navegador-->  
+</head>
+<body> <!-- A tag body contém o conteúdo que será mostrado ao usuário-->
 
-		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
-		Remove this if you use the .htaccess -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <header id="cabecalho"> <!-- Indica o cabeçalho do nosso documento-->
+  <img src="Imagens/Logo.jpg" alt=" " /> <!-- anexa imagem e texto alternativo-->
+  <nav> <!-- Indica que o conteúdo é composto de links de navegação-->
+			<a href="#">Cursos</a> <!-- Link que não leva a lugar algum-->
+			<ul> <!-- Estrutura de lista não ordenada -->
+				<li> <!-- Item de lista -->
+					<a href="./ADS.html">Análise e Desenvolvimento de Sistemas</a>					
+				</li>
+				<li>
+					<a href="#">Engenharia de Produção</a>
+				</li>
+				<li>
+					<a href="#">Gestão em Tecnologia da Informação</a>
+				</li>
+				<li>
+					<a href="#">Letras</a>
+				</li>
+				<li>
+					<a href="#">Gestão Pública</a>
+				</li>
+			</ul>
+			<a href="#">Contato</a>
+			<a href="#">Inscreva-se</a>
+			<a href="#">Entrar</a>
+		</nav>
+	</header>
+  
 
-		<title>HTML</title>
-		<meta name="description" content="">
-		<meta name="author" content="Renan Barbosa">
-
-		<meta name="viewport" content="width=device-width; initial-scale=1.0">
-
-		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-		<link rel="shortcut icon" href="/favicon.ico">
-		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-	</head>
-
-	<body>
-		<div>
-			<header>
-				<h1>HTML</h1>
-			</header>
-			<nav>
-				<p>
-					<a href="/"><b>Inicio</b></a>
-				</p>
-				<p>
-					<h1>Aulas Práticas Particulares</h1>
-				</p>
-				<p>
-					<a href="/contact">Contato</a>
-				</p>
-			</nav>
-
-			<div>
-
-			</div>
-
-			<footer>
-				<p>
-					&copy; Copyright  by Aluno IFSP:  Renan Barbosa
-				</p>
-			</footer>
-		</div>
-	</body>
+</body>
 </html>
